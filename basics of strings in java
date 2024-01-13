@@ -1,0 +1,28 @@
+public class Main {
+    public static void main(String[] args) {
+
+        String message = "hello world";
+        System.out.println(message);
+       //concatinate
+        String  message1 = "hello" + "  worldie";
+        System.out.println(message1);
+
+        // Bcz string is a class and it has members we can access using dot operaters
+        System.out.println(message1.endsWith("ie"));
+
+        // index of
+        System.out.println( message1.indexOf('h'));
+        // length
+        System.out.println( message1.length());
+        // replace
+        System.out.println( message1.replace("worldie" , "worldiiii"));
+        // to upper case
+        System.out.println(message1.toUpperCase());
+        // to cut the white spaces
+        System.out.println(message1.trim());
+        // now strings are immutable so original msg will be the same
+        System.out.println(message1);
+
+
+    }
+}
