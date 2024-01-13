@@ -1,0 +1,17 @@
+public class Main {
+    public static void main(String[] args) {
+        // escape seqeunce
+        String message = "hello world";
+        System.out.println(message);
+        // to add double qoute like hello "world" we will use \ as escape seqeunce
+        String message1 = "hello \"world\"";
+        System.out.println(message1);
+        // lets store a directory in windows ie c:\windows\....
+        // we will have the same process
+        String message3 =("c:\\windows\\....");
+        System.out.println(message3);
+        // we can use backslash n to add new line in string
+        String message4 = ("c:\nwindows\n....");
+        System.out.println(message4);
+    }
+}
