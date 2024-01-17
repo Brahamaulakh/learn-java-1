@@ -1,0 +1,15 @@
+
+public class Main {
+    public static void main(String[] args) {
+
+        int x = 10+3*2;
+        System.out.println(x);
+
+        int z = (10 + 3) * 2;
+
+        System.out.println(z);
+        /* order for operations follow a simple maths rule,
+        where () has highest priority then * and / and at last +-
+         */
+    }
+}
