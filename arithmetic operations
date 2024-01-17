@@ -13,5 +13,18 @@ double result2 = (double)10/(double)3;
         System.out.println(result2);
 //output will be 3.3333333
 
+// increment and decrement operator
+
+int x = 1;
+    x++;//post fix
+
+        System.out.println(x);
+
+        int y = 1;
+        ++y;
+        System.out.println(y);
+        // we will get the same result
+    }
+}
     }
 }
