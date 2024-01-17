@@ -24,7 +24,25 @@ int x = 1;
         ++y;
         System.out.println(y);
         // we will get the same result
-    }
-}
+  
+
+
+/* if we want to increament or decreament
+        x for more than 2 , there are two ways
+         */
+        // first way
+int x = 1;
+x = x+3;
+        System.out.println(x);
+// second way these are called assignment or compound operator
+        int y = 1;
+        y += 2;
+        System.out.println(y);
+
+        int z = 1;
+        z *= 5;
+        System.out.println(z);
+        
+        // both ways are identical but we prefer second one for clean coding
     }
 }
