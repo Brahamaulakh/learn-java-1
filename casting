@@ -30,5 +30,21 @@ public class Main {
         double c = 1.1;
         int d = (int)c + 2;
         System.out.println(d);
+
+
+       /*we cannot convert string into int or float
+        however we have a refrence class for that (integer),
+        in java.lang package
+         */
+
+
+        String j = "1";
+        int k = Integer.parseInt(j) + 2; // in this class we have a dot method parseint
+        System.out.println(k);
+
+        // similarly we can convert string into short, float , double
+        String m = "2.3334";
+        double n = Double.parseDouble(m) +6;
+        System.out.println(n);
         }
      }
