@@ -1,0 +1,53 @@
+//math class
+public class Main {
+    public static void main(String[] args) {
+        // in java we have math class defined in java.lang
+
+        int result = Math.round(1.1F);
+        System.out.println(result);
+
+        // or we have ciel method , it will return the smallest integer that is greater or equal to the number
+
+        int result1 = (int)Math.ceil(1.1F); // we need to explicite cast the number to get integer
+        System.out.println(result1);
+        // this will return 2
+
+        // we also have floor method that is opposite of ciel
+
+        int result2 = (int)Math.floor(1.1F);
+        System.out.println(result2);
+
+        // we can aslo find max or min between numbers
+        int result3 = Math.max(555 , 499);
+        System.out.println(result3);
+        // similarly min
+        int result4 = Math.max(555,499);
+        System.out.println(result4);
+
+        // we have a method to generate random numbers
+
+        double result5 = Math.random();
+        System.out.println(result5);  // this will generate numbers between 0 to 1 randomly on every refresh
+
+        // lets say we want to generate 0 to 100
+        double result6 = Math.random() * 100;
+        System.out.println(result6);
+
+        // lets cast this into int
+        double result7 = (int)Math.random() *100;
+        System.out.println(result7); // the result will be 0.0 bcz we are casting only the random number between 0 to 1
+
+        // to avoid this put whole expression instead of just Math.random in ()
+
+        double result8 = (int) (Math.random()*100);
+        System.out.println(result8);
+
+        // we still have the fraction to deal with so to cut that out
+        int result9 = (int) (Math.random()*100);
+        System.out.println(result9);
+
+
+    }
+    }
+
+
