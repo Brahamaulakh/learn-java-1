@@ -13,3 +13,5 @@ public class Main {
     /*    NumberFormat curreny = new NumberFormat()
     this will return a error cuz  numberformat is abstract
      */
+}
+}
