@@ -17,6 +17,12 @@ public class Main {
         some classes are abstract and they are like a half baked cake 
         we cannot use the new operator to create on instance of them but theres a another way
          */
-        
+          NumberFormat currency = NumberFormat.getCurrencyInstance();
+
+        currency.format(1234567.891);
+
+        //now store this number in a string variable cuz it will return string representation
+        String result = currency.format(1234567.891);
+        System.out.println(result);
 }
 }
