@@ -33,5 +33,12 @@ public class Main {
         String result1 = percemt.format(0.5);
         System.out.println(result1);
 
+ // in the above code we really don't need this percent obj and we can get rid of it
+
+        NumberFormat.getPercentInstance().format(0.05);
+        // this is called method chaining , now put this in string variable
+        String result3 = NumberFormat.getPercentInstance().format(0.05);
+        System.out.println(result3);
+
 }
 }
