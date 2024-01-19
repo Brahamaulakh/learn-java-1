@@ -24,5 +24,14 @@ public class Main {
         //now store this number in a string variable cuz it will return string representation
         String result = currency.format(1234567.891);
         System.out.println(result);
+
+// we have another method to formate numbers as a percent
+        NumberFormat percemt = NumberFormat.getPercentInstance();
+
+        percemt.format(1234567.891);
+
+        String result1 = percemt.format(0.5);
+        System.out.println(result1);
+
 }
 }
