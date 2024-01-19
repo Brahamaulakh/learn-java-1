@@ -1,1 +1,15 @@
-
+//formating number
+public class Main {
+    public static void main(String[] args) {
+// quite often when we work with numbers we need to format
+        
+        /*
+        ex. %1,234,567
+        or
+        10%
+        
+        so we have a number format class in java in java.text package
+         */
+    /*    NumberFormat curreny = new NumberFormat()
+    this will return a error cuz  numberformat is abstract
+     */
