@@ -17,6 +17,21 @@ System.out.print("Age: ");
          
         System.out.println("you are " + age);
 // in this there's implicite casting is done 
+
+
+
+
+//for string
+   System.out.print("Name: ");
+
+        String name = scanner.next();
+
+        System.out.println("you are " + name);
+
+        /* this will only return first name because it
+        will call only one token , use nextLine to have
+        2 or more than 2 tokens
+        */
     }
 
     }
