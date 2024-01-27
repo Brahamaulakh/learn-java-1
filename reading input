@@ -7,6 +7,7 @@ public class Main {
         /* in this () we need to specify where we are 
         gonna read data , like in terminal or file
          */
+System.out.print("Age: ");
         byte age = scanner.nextByte();
         /* now this object has some method for reading data
         lets say someone's age and then store it in a byte
