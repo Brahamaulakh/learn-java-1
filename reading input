@@ -32,6 +32,12 @@ System.out.print("Age: ");
         will call only one token , use nextLine to have
         2 or more than 2 tokens
         */
+
+        System.out.println("Full Name :");
+        String fullname = scanner.nextLine().trim();
+        // we are also trimming using method chain
+
+        System.out.println("you are " + fullname);
     }
 
     }
